@@ -2901,6 +2901,7 @@ div {
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
 	background-position: top left, center center;
+	z-index: 1;
 }
 #two .content.box.style2 {
 	width: 970px;
@@ -3530,3 +3531,7 @@ body.is-touch .poptrox-popup .closer {
 
 	}
 	/* Mobile cf @media (max-width: 736px) */
+
+.content.box.style2 {
+	z-index: ;
+}
