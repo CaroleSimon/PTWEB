@@ -2174,8 +2174,7 @@ button.style2.down {
 
 #fleche {
 	position: relative;
-	top: 300px;
-	bottom: px;
+	top: 380px;
 }
 
 
@@ -2805,6 +2804,7 @@ body {
 }
 
 
+
 /* One */
 
 
@@ -2850,13 +2850,12 @@ body {
 }
 
 #box_presentation a p {
-	background-color: #618DB7;
+	background-color: #7F2081;
 	color: white;
 	text-align: center;
 	font-style: oblique;
 	font-size: 0.8em;
 	width: 15em;
-	border: #2A388D 2px solid;
 	border-radius: 10px;
 	margin: auto;
 }
@@ -2884,7 +2883,7 @@ body {
 
 /*
 .telecharger {
-	text-align: center;
+	
 } */
 
 
@@ -2904,14 +2903,15 @@ div {
 	z-index: 1;
 }
 #two .content.box.style2 {
-	width: 970px;
+	width: 990px;
 }
 #two h2 {
 	margin-left: 40px;
 }
 #two img {
-	margin-left: 100px;
+	margin-left: 70px;
 	margin-top: 40px;
+	width: 850px;
 }
 
 /* Three */
@@ -3528,7 +3528,9 @@ body.is-touch .poptrox-popup .closer {
 		overflow: hidden;
 		transition: height 0.5s;
 	}
-
+		#two img {
+		max-width: 780px;
+		}
 	}
 	/* Mobile cf @media (max-width: 736px) */
 
